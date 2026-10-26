@@ -1,0 +1,6 @@
+model=ck-step1000 ablate=[] windows=24 loss own=4.108 foreign=4.206 ICL benefit=0.097 nats [95% CI 0.055, 0.142] median window diff=0.103
+model=ck-step1000 ablate=[(3, 2)] windows=24 loss own=4.196 foreign=4.265 ICL benefit=0.069 nats [95% CI 0.046, 0.092] median window diff=0.070
+model=ck-step1000 ablate=[(3, 0), (3, 2)] windows=24 loss own=4.297 foreign=4.341 ICL benefit=0.044 nats [95% CI 0.026, 0.063] median window diff=0.026
+model=ck-step1000 ablate=[(3, 3), (3, 5)] windows=24 loss own=4.111 foreign=4.208 ICL benefit=0.097 nats [95% CI 0.054, 0.144] median window diff=0.099
+model=ck-step1000 ablate=[(4, 6), (4, 8), (4, 10), (4, 11), (5, 0), (5, 6)] windows=24 loss own=4.258 foreign=4.295 ICL benefit=0.037 nats [95% CI 0.019, 0.057] median window diff=0.031
+model=ck-step1000 ablate=[(0, 1), (1, 5), (2, 3), (6, 4), (10, 1), (11, 9)] windows=24 loss own=4.214 foreign=4.308 ICL benefit=0.094 nats [95% CI 0.051, 0.141] median window diff=0.094

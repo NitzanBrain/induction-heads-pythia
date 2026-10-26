@@ -1,0 +1,6 @@
+model=ck-step1000 ablate=[(3, 0), (3, 2)] MEAN windows=24 loss own=4.290 foreign=4.333 ICL benefit=0.043 nats [95% CI 0.025, 0.064] median window diff=0.028
+model=ck-step1000 ablate=[(4, 6), (4, 8), (4, 10), (4, 11), (5, 0), (5, 6)] MEAN windows=24 loss own=4.240 foreign=4.275 ICL benefit=0.035 nats [95% CI 0.018, 0.056] median window diff=0.028
+model=ck-step1000 ablate=[(0, 1), (1, 5), (2, 3), (6, 4), (10, 1), (11, 9)] MEAN windows=24 loss own=4.145 foreign=4.242 ICL benefit=0.097 nats [95% CI 0.056, 0.141] median window diff=0.109
+model=p160 ablate=[(3, 0), (3, 2)] MEAN windows=24 loss own=3.139 foreign=3.223 ICL benefit=0.084 nats [95% CI 0.049, 0.120] median window diff=0.069
+model=p160 ablate=[(4, 6), (4, 8), (4, 10), (4, 11), (5, 0), (5, 6)] MEAN windows=24 loss own=3.102 foreign=3.174 ICL benefit=0.072 nats [95% CI 0.041, 0.103] median window diff=0.067
+model=p160 ablate=[(0, 1), (1, 5), (2, 3), (6, 4), (10, 1), (11, 9)] MEAN windows=24 loss own=3.119 foreign=3.219 ICL benefit=0.101 nats [95% CI 0.062, 0.140] median window diff=0.098

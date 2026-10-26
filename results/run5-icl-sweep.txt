@@ -1,0 +1,9 @@
+step 0: model=ck-step0 n_ctx=16 median loss@50=11.028 @500=11.090 ICL score=-0.062 | means 11.06 11.06
+step 256: model=ck-step256 n_ctx=16 median loss@50=5.931 @500=4.581 ICL score=1.350 | means 5.89 5.48
+step 512: model=ck-step512 n_ctx=16 median loss@50=4.967 @500=3.973 ICL score=0.995 | means 4.85 4.59
+step 1000: model=ck-step1000 n_ctx=16 median loss@50=3.917 @500=3.521 ICL score=0.396 | means 4.14 3.86
+step 2000: model=ck-step2000 n_ctx=16 median loss@50=3.213 @500=2.713 ICL score=0.500 | means 3.60 3.48
+step 4000: model=ck-step4000 n_ctx=16 median loss@50=3.055 @500=2.245 ICL score=0.810 | means 3.44 3.21
+step 8000: model=ck-step8000 n_ctx=16 median loss@50=2.924 @500=2.287 ICL score=0.637 | means 3.42 3.20
+step 32000: model=ck-step32000 n_ctx=16 median loss@50=2.780 @500=2.230 ICL score=0.550 | means 3.25 3.04
+step 143000: model=p160 n_ctx=16 median loss@50=2.622 @500=2.331 ICL score=0.291 | means 3.15 3.09

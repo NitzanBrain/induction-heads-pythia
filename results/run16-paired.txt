@@ -1,0 +1,13 @@
+dumps/fin-w1.npy − dumps/fin-none.npy: -0.0250 [95% CI -0.0413, -0.0088] (as share of B: -25%); windows where A<B: 19/24
+dumps/fin-r6.npy − dumps/fin-none.npy: +0.0066 [95% CI -0.0131, +0.0266] (as share of B: +7%); windows where A<B: 10/24
+dumps/fin-L4.npy − dumps/fin-none.npy: +0.0022 [95% CI -0.0270, +0.0301] (as share of B: +2%); windows where A<B: 9/24
+dumps/fin-L5.npy − dumps/fin-none.npy: +0.0071 [95% CI -0.0144, +0.0282] (as share of B: +7%); windows where A<B: 9/24
+dumps/fin-L3H2.npy − dumps/fin-none.npy: -0.0135 [95% CI -0.0330, +0.0085] (as share of B: -13%); windows where A<B: 16/24
+dumps/fin-L4four.npy − dumps/fin-none.npy: -0.0104 [95% CI -0.0244, +0.0034] (as share of B: -10%); windows where A<B: 16/24
+dumps/fin-L5two.npy − dumps/fin-none.npy: -0.0045 [95% CI -0.0111, +0.0032] (as share of B: -4%); windows where A<B: 15/24
+dumps/fin-L4rest.npy − dumps/fin-none.npy: +0.0122 [95% CI -0.0173, +0.0459] (as share of B: +12%); windows where A<B: 11/24
+dumps/fin-L5rest.npy − dumps/fin-none.npy: +0.0130 [95% CI -0.0077, +0.0326] (as share of B: +13%); windows where A<B: 10/24
+dumps/s1k-w1.npy − dumps/s1k-none.npy: -0.0605 [95% CI -0.1055, -0.0139] (as share of B: -62%); windows where A<B: 18/24
+dumps/s1k-r6.npy − dumps/s1k-none.npy: -0.0034 [95% CI -0.0127, +0.0057] (as share of B: -3%); windows where A<B: 12/24
+dumps/s1k-L3H2.npy − dumps/s1k-none.npy: -0.0285 [95% CI -0.0569, +0.0011] (as share of B: -29%); windows where A<B: 15/24
+-- [note added by hand on 10-24, not program output] share comparison: (step1000 w1 drop)/(step1000 none) vs (final w1 drop)/(final none) via per-window ratio not computed; see s1k vs fin lines

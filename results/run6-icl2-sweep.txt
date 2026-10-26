@@ -1,0 +1,7 @@
+step 0: model=ck-step0 windows=24 loss own=11.100 foreign=11.103 ICL benefit=0.003 nats [95% CI -0.006, 0.013] median window diff=-0.002
+step 256: model=ck-step256 windows=24 loss own=5.782 foreign=5.786 ICL benefit=0.004 nats [95% CI -0.006, 0.013] median window diff=0.010
+step 512: model=ck-step512 windows=24 loss own=4.796 foreign=4.822 ICL benefit=0.026 nats [95% CI 0.008, 0.046] median window diff=0.026
+step 1000: model=ck-step1000 windows=24 loss own=4.108 foreign=4.206 ICL benefit=0.097 nats [95% CI 0.055, 0.142] median window diff=0.103
+step 2000: model=ck-step2000 windows=24 loss own=3.559 foreign=3.667 ICL benefit=0.107 nats [95% CI 0.068, 0.147] median window diff=0.145
+step 8000: model=ck-step8000 windows=24 loss own=3.203 foreign=3.313 ICL benefit=0.110 nats [95% CI 0.068, 0.154] median window diff=0.095
+step 143000: model=p160 windows=24 loss own=3.032 foreign=3.134 ICL benefit=0.101 nats [95% CI 0.064, 0.139] median window diff=0.108

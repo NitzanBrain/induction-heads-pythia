@@ -1,0 +1,2 @@
+dumps/fin-w1.npy − dumps/fin-L4.npy: -0.0271 [95% CI -0.0559, +0.0027] (as share of B: -26%); windows where A<B: 14/24
+dumps/fin-w1.npy − dumps/fin-L5.npy: -0.0321 [95% CI -0.0571, -0.0060] (as share of B: -30%); windows where A<B: 19/24

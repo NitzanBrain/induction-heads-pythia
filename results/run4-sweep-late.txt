@@ -1,0 +1,21 @@
+=== step 16000 ===
+model=ck-step16000 n_seq=8 S=100
+induction score [layer x head]:
+prev-token score [layer x head]:
+top induction heads: [('L4H6', 0.98), ('L4H10', 0.936), ('L4H11', 0.836), ('L5H0', 0.785), ('L5H6', 0.735), ('L4H8', 0.558), ('L8H2', 0.284), ('L5H7', 0.264), ('L9H9', 0.171), ('L8H11', 0.17), ('L8H1', 0.165), ('L8H8', 0.153)]
+top prev-token heads: [('L3H2', 0.978), ('L3H0', 0.903), ('L7H7', 0.612), ('L2H8', 0.512), ('L3H1', 0.458), ('L1H2', 0.452), ('L1H1', 0.451), ('L5H1', 0.371)]
+copy1 median nll=13.17 | copy2 median nll=0.151 mean=0.65 top1=0.946 (uniform ln V=10.83)
+=== step 32000 ===
+model=ck-step32000 n_seq=8 S=100
+induction score [layer x head]:
+prev-token score [layer x head]:
+top induction heads: [('L4H6', 0.975), ('L4H10', 0.898), ('L5H0', 0.77), ('L5H6', 0.734), ('L4H11', 0.615), ('L4H8', 0.541), ('L8H2', 0.482), ('L5H7', 0.254), ('L8H11', 0.245), ('L9H9', 0.222), ('L8H1', 0.215), ('L10H2', 0.207)]
+top prev-token heads: [('L3H2', 0.978), ('L3H0', 0.88), ('L7H7', 0.656), ('L2H8', 0.519), ('L1H2', 0.507), ('L3H1', 0.473), ('L1H1', 0.444), ('L5H1', 0.327)]
+copy1 median nll=13.03 | copy2 median nll=0.252 mean=0.86 top1=0.927 (uniform ln V=10.83)
+=== step 64000 ===
+model=ck-step64000 n_seq=8 S=100
+induction score [layer x head]:
+prev-token score [layer x head]:
+top induction heads: [('L4H6', 0.95), ('L4H10', 0.849), ('L5H0', 0.78), ('L5H6', 0.735), ('L8H2', 0.588), ('L9H5', 0.489), ('L4H8', 0.377), ('L5H7', 0.338), ('L4H11', 0.309), ('L8H11', 0.308), ('L9H9', 0.229), ('L10H10', 0.2)]
+top prev-token heads: [('L3H2', 0.975), ('L3H0', 0.837), ('L7H7', 0.635), ('L1H2', 0.538), ('L2H8', 0.499), ('L3H1', 0.492), ('L1H1', 0.424), ('L1H7', 0.352)]
+copy1 median nll=13.13 | copy2 median nll=0.274 mean=0.88 top1=0.928 (uniform ln V=10.83)

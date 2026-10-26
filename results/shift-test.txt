@@ -1,0 +1,2 @@
+share removed by w1 (point estimate, bootstrap 95% CI, seed 0): step1000 0.62 [0.24,0.81]; final 0.25 [0.10,0.40]; difference 0.37 [-0.00,0.57] (n=24 windows, joint bootstrap, 5000 draws)
+share removed by w1 (point estimate, bootstrap 95% CI, seed 1): step1000 0.62 [0.25,0.81]; final 0.25 [0.09,0.39]; difference 0.37 [-0.02,0.57] (n=24 windows, joint bootstrap, 5000 draws)

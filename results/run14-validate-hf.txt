@@ -1,0 +1,2 @@
+T=20: max|logit diff|=0.0139 (logit scale std 146.7); argmax agree=1.000; max|attn diff|=0.00218; max|resid L4 diff|=0.0001 (resid norm 30.3)
+T=200: max|logit diff|=0.0874 (logit scale std 124.7); argmax agree=1.000; max|attn diff|=0.00772; max|resid L4 diff|=0.0001 (resid norm 17.5)
